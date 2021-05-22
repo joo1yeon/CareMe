@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottomnavi_calendar"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="달력"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bottomnavi_chatbot"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_sms_24"
+        android:title="챗봇"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bottomnavi_map"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="지도"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bottomnavi_prescription"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_medical_services_24"
+        android:title="약봉투"
+        app:showAsAction="always" />
+</menu>
