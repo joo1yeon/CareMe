@@ -21,6 +21,10 @@
             android:name=".Login"
             android:label="로그인">
         </activity>
+        <activity
+            android:name=".chatsample.features.demo.def.DefaultMessagesActivity"
+            android:label="챗봇">
+        </activity>
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="zarfj52zb1" />

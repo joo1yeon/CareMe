@@ -19,13 +19,6 @@ allprojects {
         maven {
             url 'http://jitpack.io'
         }
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        jcenter()
         maven {
             url 'https://naver.jfrog.io/artifactory/maven/'
         }

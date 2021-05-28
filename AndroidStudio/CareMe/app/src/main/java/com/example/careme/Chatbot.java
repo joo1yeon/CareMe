@@ -9,6 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.careme.chatsample.features.demo.def.DefaultMessagesActivity;
+
+import me.relex.circleindicator.CircleIndicator;
+
 public class Chatbot extends Fragment {
     View view;
 
@@ -17,6 +21,7 @@ public class Chatbot extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.chatbot, container, false);
 
+        DefaultMessagesActivity.open(getContext());
         return view;
     }
 }
