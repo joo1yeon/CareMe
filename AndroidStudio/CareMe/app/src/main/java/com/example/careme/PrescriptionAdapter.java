@@ -58,4 +58,9 @@ public class PrescriptionAdapter extends RecyclerView.Adapter<PrescriptionAdapte
     public int getItemCount() {
         return mData.size();
     }
+
+    @Override
+    public int getItemViewType(int position) {
+        return position;
+    }
 }

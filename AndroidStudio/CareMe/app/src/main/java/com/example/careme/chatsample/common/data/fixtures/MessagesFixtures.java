@@ -17,7 +17,7 @@ public final class MessagesFixtures extends FixturesData {
 
     public static Message getImageMessage() {
         Message message = new Message(getRandomId(), getUser(), null);
-        message.setImage(new Message.Image(getRandomImage()));
+        //message.setImage(new Message.Image(getRandomImage()));
         return message;
     }
 
@@ -35,6 +35,14 @@ public final class MessagesFixtures extends FixturesData {
         return new Message(getRandomId(), getUser(), text);
     }
 
+    public static Message getTextMessage(String text, boolean b) {
+        return new Message(getRandomId(), getUser2(b), text);
+    }
+
+    public static Message getTextMessage(boolean b) {
+        return new Message(getRandomId(), getUser2(b), getRandomMessage());
+    }
+
     public static ArrayList<Message> getMessages(Date startDate) {
         ArrayList<Message> messages = new ArrayList<>();
         for (int i = 0; i < 10/*days count*/; i++) {
@@ -42,11 +50,12 @@ public final class MessagesFixtures extends FixturesData {
 
             for (int j = 0; j < countPerDay; j++) {
                 Message message;
-                if (i % 2 == 0 && j % 3 == 0) {
-                    message = getImageMessage();
-                } else {
-                    message = getTextMessage();
-                }
+//                if (i % 2 == 0 && j % 3 == 0) {
+//                    message = getImageMessage();
+//                } else {
+//                    message = getTextMessage();
+//                }
+                message = getTextMessage();
 
                 Calendar calendar = Calendar.getInstance();
                 if (startDate != null) calendar.setTime(startDate);
@@ -61,10 +70,20 @@ public final class MessagesFixtures extends FixturesData {
 
     private static User getUser() {
         boolean even = rnd.nextBoolean();
+        // true: 사용자, false: 챗봇
         return new User(
                 even ? "0" : "1",
                 even ? names.get(0) : names.get(1),
                 even ? avatars.get(0) : avatars.get(1),
+                true);
+    }
+
+    private static User getUser2(boolean b) {
+        // true: 사용자, false: 챗봇
+        return new User(
+                b ? "0" : "1",
+                b ? names.get(0) : names.get(1),
+                b ? avatars.get(0) : avatars.get(1),
                 true);
     }
 }

@@ -56,7 +56,7 @@ public class MyCalendar extends Fragment {
                 oneDayDecorator
         );
 
-        String[] result = {"2021,03,18", "2021,04,18", "2021,05,18", "2021,06,18"};
+        String[] result = {"2021,06,18"};
 
         new ApiSimulator(result).executeOnExecutor(Executors.newSingleThreadExecutor());
 
