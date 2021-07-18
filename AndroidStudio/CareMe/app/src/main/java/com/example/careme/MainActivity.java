@@ -10,9 +10,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 
-import com.example.careme.chatsample.features.main.adapter.DemoCardFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.naver.maps.map.MapFragment;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -22,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
 
-    MyCalendar fragCal = new MyCalendar();
-    Chatbot fragChat = new Chatbot();
-    Map fragMap = new Map();
-    Prescription fragPres = new Prescription();
+    MyCalendarActivity fragCal = new MyCalendarActivity();
+    ChatbotActivity fragChat = new ChatbotActivity();
+    MapActivity fragMapActivity = new MapActivity();
+    PrescriptionActivity fragPres = new PrescriptionActivity();
     //ConfirmReservation fragConfirmRes = new ConfirmReservation();
 
     @Override
@@ -34,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // 로그인?
-        Intent intent = new Intent(MainActivity.this, Login.class);
+        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(intent);
 
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomnavi);
@@ -68,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 fragmentTransaction.commit();
                 break;
             case R.id.bottomnavi_map: // 지도
-                fragmentTransaction.replace(R.id.main_frame, fragMap); // (fragment를 담을 영역 id, 지도 fragment 객체)
+                fragmentTransaction.replace(R.id.main_frame, fragMapActivity); // (fragment를 담을 영역 id, 지도 fragment 객체)
                 fragmentTransaction.commit();
                 break;
             case R.id.bottomnavi_prescription: // 약봉투

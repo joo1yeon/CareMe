@@ -40,7 +40,7 @@ import me.relex.circleindicator.CircleIndicator;
 
 import static android.media.audiofx.AudioEffect.CONTENT_TYPE_VOICE;
 
-public class Chatbot extends Fragment
+public class ChatbotActivity extends Fragment
         implements
         MessagesListAdapter.SelectionListener,
         MessagesListAdapter.OnLoadMoreListener,

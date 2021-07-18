@@ -1,6 +1,5 @@
 package com.example.careme;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -41,7 +40,7 @@ public class PrescriptionAdapter extends RecyclerView.Adapter<PrescriptionAdapte
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
         // list item의 UI를 정의하는 새로운 view 생성
         View view = LayoutInflater.from(viewGroup.getContext())
-                .inflate(R.layout.prescription_item, viewGroup, false);
+                .inflate(R.layout.item_prescription, viewGroup, false);
 
         return new ViewHolder(view);
     }

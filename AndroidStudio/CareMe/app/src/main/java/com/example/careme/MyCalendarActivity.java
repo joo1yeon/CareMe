@@ -8,7 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -28,7 +27,7 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.concurrent.Executors;
 
-public class MyCalendar extends Fragment {
+public class MyCalendarActivity extends Fragment {
     View view;
     TextView tv_date;
     String time, kcal, menu;
@@ -39,7 +38,7 @@ public class MyCalendar extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.mycalendar, container, false);
+        view = inflater.inflate(R.layout.activity_mycalendar, container, false);
         materialCalendarView = (MaterialCalendarView)view.findViewById(R.id.calendarView);
         tv_date = (TextView)view.findViewById(R.id.tv_date);
 

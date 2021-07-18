@@ -4,26 +4,19 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import com.naver.maps.geometry.LatLng;
-import com.naver.maps.map.CameraPosition;
 import com.naver.maps.map.LocationTrackingMode;
 import com.naver.maps.map.MapFragment;
 import com.naver.maps.map.NaverMap;
-import com.naver.maps.map.NaverMapSdk;
 import com.naver.maps.map.OnMapReadyCallback;
-import com.naver.maps.map.overlay.Marker;
 import com.naver.maps.map.util.FusedLocationSource;
 
-import java.util.Locale;
-
-public class Map extends Fragment implements OnMapReadyCallback {
+public class MapActivity extends Fragment implements OnMapReadyCallback {
     View view;
     private static final int LOCATION_PERMISSION_REQEUST_CODE = 1000;
     private FusedLocationSource locationSource;
@@ -32,7 +25,7 @@ public class Map extends Fragment implements OnMapReadyCallback {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.map, container, false);
+        view = inflater.inflate(R.layout.activity_map, container, false);
 
         // API 호출을 위한 인터페이스 역할을 하는 NaverMap 객체 얻기
         FragmentManager fm = getChildFragmentManager();
