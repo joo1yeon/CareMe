@@ -1,6 +1,7 @@
-
+<img src="README_asset/logo.jpg" width="400px" />
 
 # 안드로이드 헬스케어 어플리케이션
+
 > 캡스톤 디자인
 
 <br>
@@ -32,6 +33,7 @@
   <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
   <img src="https://img.shields.io/badge/AWS EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white">
   <img src="https://img.shields.io/badge/AWS RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cent OS-262577?style=for-the-badge&logo=centos&logoColor=white" />
   <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
 </div>
 
@@ -61,15 +63,44 @@
 
 - [Retrofit2](https://github.com/square/retrofit)
 
-### API
+### Open Source
 
-- [ML Kit](https://developers.google.com/ml-kit?hl=ko)
+- [play-services-mlkit-text-recognition `17.0.0`](https://developers.google.com/ml-kit?hl=ko)
+- [prolificinteractive:material-calendarview `1.4.3`](https://github.com/prolificinteractive/material-calendarview)
+- [stfalcon-studio:Chatkit `0.4.1`](https://github.com/stfalcon-studio/ChatKit)
+- [airbnb.android:lottie `4.1.0`](https://github.com/airbnb/lottie-android)
+
+### Open API
+
+- [국립중앙의료원\_전국 병의원 찾기 서비스](https://www.data.go.kr/data/15000736/openapi.do)
+- [건강보험심사평가원\_의료기관별상세정보서비스](https://www.data.go.kr/data/15001699/openapi.do)
+
+<br>
+
+# 📌 서비스 화면
+
+|                         스플래시                         |                         로그인                         |                         달력                         |                         알림                         |
+| :------------------------------------------------------: | :----------------------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------: |
+| <img src="README_asset/화면/스플래시.jpg" width="500px"> | <img src="README_asset/화면/로그인.jpg" width="500px"> | <img src="README_asset/화면/달력.PNG" width="500px"> | <img src="README_asset/화면/알림.jpg" width="500px"> |
+
+|                        약 봉투                         |                        약 목록                         |                         지도                         |                         챗봇                         |
+| :----------------------------------------------------: | :----------------------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------: |
+| <img src="README_asset/화면/약봉투.PNG" width="500px"> | <img src="README_asset/화면/약목록.jpg" width="500px"> | <img src="README_asset/화면/지도.PNG" width="500px"> | <img src="README_asset/화면/챗봇.PNG" width="500px"> |
+
+<br>
+
+# 📌 산출물
+
+### 시스템 아키텍처
+
+| ![시스템아키텍처](README_asset/시스템아키텍처.png) | ![aws](README_asset/클라우드.png) |
+| -------------------------------------------------- | --------------------------------- |
 
 <br>
 
 # 📌 팀원 소개
 
-| 연주원 | 손경린 | 전수진 |
-|:---:|:---:|:---:|
+|                                              연주원                                              |                                                 손경린                                                 |                                            전수진                                            |
+| :----------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
 | [![joo1yeon](https://avatars.githubusercontent.com/u/50977497?v=4)](https://github.com/joo1yeon) | [![kyounglin31](https://avatars.githubusercontent.com/u/62778590?v=4)](https://github.com/kyounglin31) | [![su0545](https://avatars.githubusercontent.com/u/85470545?v=4)](https://github.com/su0545) |
-| 팀장<br>달력에 증상 관리 기능<br>약봉투 인식 기능 | 가까운 병원 및 약국 찾기 기능 | 챗봇을 통한 예약 기능 |
+|                        팀장<br>달력에 증상 관리 기능<br>약봉투 인식 기능                         |                                     가까운 병원 및 약국 찾기 기능                                      |                                    챗봇을 통한 예약 기능                                     |
