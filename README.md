@@ -65,10 +65,10 @@
 
 ### Open Source
 
-- [play-services-mlkit-text-recognition `17.0.0`](https://developers.google.com/ml-kit?hl=ko)
-- [prolificinteractive:material-calendarview `1.4.3`](https://github.com/prolificinteractive/material-calendarview)
-- [stfalcon-studio:Chatkit `0.4.1`](https://github.com/stfalcon-studio/ChatKit)
-- [airbnb.android:lottie `4.1.0`](https://github.com/airbnb/lottie-android)
+- [play-services-mlkit-text-recognition](https://developers.google.com/ml-kit?hl=ko) `17.0.0`
+- [prolificinteractive:material-calendarview](https://github.com/prolificinteractive/material-calendarview) `1.4.3`
+- [stfalcon-studio:Chatkit](https://github.com/stfalcon-studio/ChatKit) `0.4.1`
+- [airbnb.android:lottie](https://github.com/airbnb/lottie-android) `4.1.0`
 
 ### Open API
 
