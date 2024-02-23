@@ -105,11 +105,11 @@
 
 |                         스플래시                         |                         로그인                         |                         달력                         |                         알림                         |
 | :------------------------------------------------------: | :----------------------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------: |
-| <img src="README_asset/화면/스플래시.jpg" width="500px"> | <img src="README_asset/화면/로그인.jpg" width="500px"> | <img src="README_asset/화면/달력.PNG" width="500px"> | <img src="README_asset/화면/알림.jpg" width="500px"> |
+| <img src="README_asset/화면/스플래시.png" width="500px"> | <img src="README_asset/화면/로그인.png" width="500px"> | <img src="README_asset/화면/달력.png" width="500px"> | <img src="README_asset/화면/알림.png" width="500px"> |
 
 |                        약 봉투                         |                        약 목록                         |                         지도                         |                         챗봇                         |
 | :----------------------------------------------------: | :----------------------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------: |
-| <img src="README_asset/화면/약봉투.PNG" width="500px"> | <img src="README_asset/화면/약목록.jpg" width="500px"> | <img src="README_asset/화면/지도.PNG" width="500px"> | <img src="README_asset/화면/챗봇.PNG" width="500px"> |
+| <img src="README_asset/화면/약봉투.png" width="500px"> | <img src="README_asset/화면/약목록.png" width="500px"> | <img src="README_asset/화면/지도.png" width="500px"> | <img src="README_asset/화면/챗봇.png" width="500px"> |
 
 <br>
 
