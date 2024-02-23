@@ -1,4 +1,4 @@
-<img src="README_asset/logo.jpg" width="400px" />
+<img src="README_asset/cover_image.png" />
 
 # 안드로이드 헬스케어 어플리케이션
 
